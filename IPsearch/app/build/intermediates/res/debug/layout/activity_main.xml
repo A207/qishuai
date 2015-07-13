@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView android:text="请输入手机号："
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+    android:layout_width="350px"
+    android:layout_height="wrap_content"
+    android:id="@+id/editText"/>
+    <Button android:text="查询"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        />
+</LinearLayout>
+<!-- From: file:/E:/qishuai/IPsearch/app/src/main/res/layout/activity_main.xml -->

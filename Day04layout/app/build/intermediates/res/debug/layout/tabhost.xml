@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@android:id/tabhost">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"></LinearLayout>
+<TabWidget android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@android:id/tabs"/>
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@android:id/tabcontent">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第一个界面"
+            android:textSize="40sp"
+            android:id="@+id/tv1"></TextView>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第二个界面"
+            android:textSize="40sp"
+            android:id="@+id/tv2"></TextView>
+    </FrameLayout>
+</TabHost><!-- From: file:/E:/qishuai/Day04layout/app/src/main/res/layout/tabhost.xml -->

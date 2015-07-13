@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\qishuai\Intent04\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="E:\qishuai\Intent04\app\build\intermediates\pre-dexed\debug\classes-0efa1a6727025b6faff42b251ffcde684319c1f5.jar" />
+    </item>
+    <item
+        jar="E:\qishuai\Intent04\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="E:\qishuai\Intent04\app\build\intermediates\pre-dexed\debug\classes-64680eae22615a1bb4452bb876575685afda2712.jar" />
+    </item>
+    <item
+        jar="E:\qishuai\Intent04\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="E:\qishuai\Intent04\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-f7cde5966c528710dbc36c7b141836738a7aad6b.jar" />
+    </item>
+    <item
+        jar="D:\AndroidTools\sdk\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="E:\qishuai\Intent04\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-12882b784a5116f0b48ae0c4dc095c0ec5f34e36.jar" />
+    </item>
+
+</items>

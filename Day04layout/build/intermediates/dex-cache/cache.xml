@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\AndroidTools\sdk\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="E:\qishuai\Day04layout\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-12882b784a5116f0b48ae0c4dc095c0ec5f34e36.jar" />
+    </item>
+    <item
+        jar="E:\qishuai\Day04layout\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="E:\qishuai\Day04layout\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-def091e7ae6b0df8c30cb8f41b20993ac2e54f84.jar" />
+    </item>
+    <item
+        jar="E:\qishuai\Day04layout\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="E:\qishuai\Day04layout\app\build\intermediates\pre-dexed\debug\classes-9b5b07e6711aade7f7e970dc77d0a72bb620b19b.jar" />
+    </item>
+    <item
+        jar="E:\qishuai\Day04layout\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="E:\qishuai\Day04layout\app\build\intermediates\pre-dexed\debug\classes-5014c0ba4ded1b62497bd2985a7e7975fbbebe41.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<Button android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="shuai"
+    android:layout_centerInParent="true"
+    android:id="@+id/center"/>
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="shuai"
+        android:layout_above="@+id/center"
+        android:layout_alignLeft="@+id/center"/>
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="shuai"
+android:layout_toRightOf="@+id/center"
+        android:layout_alignBottom="@+id/center"/>
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="shuai"
+        android:layout_toLeftOf="@+id/center" />
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="shuai"
+        android:layout_below="@+id/center"
+        android:layout_alignLeft="@+id/center"/>
+
+</RelativeLayout><!-- From: file:/E:/qishuai/Day04layout/app/src/main/res/layout/relativelayout.xml -->
