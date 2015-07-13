@@ -1,0 +1,96 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back02">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="体重指数计算器"
+        android:textSize="40sp"
+
+        android:layout_x="40dp"
+        android:layout_y="20dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="身高"
+        android:textSize="35sp"
+
+        android:layout_x="70dp"
+        android:layout_y="90dp"
+
+        />
+<EditText
+    android:layout_width="90sp"
+    android:layout_height="wrap_content"
+    android:layout_x="150dp"
+    android:layout_y="90dp"
+    android:textSize="30sp"
+    android:inputType="number"
+    android:id="@+id/shengao"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cm"
+        android:textSize="35sp"
+
+        android:layout_x="250dp"
+        android:layout_y="90dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="体重"
+        android:textSize="35sp"
+
+        android:layout_x="70dp"
+        android:layout_y="160dp"
+
+        />
+    <EditText
+        android:layout_width="90sp"
+        android:layout_height="wrap_content"
+        android:layout_x="150dp"
+        android:layout_y="160dp"
+        android:textSize="30sp"
+        android:inputType="number"
+        android:id="@+id/tizhong"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kg"
+        android:textSize="35sp"
+
+        android:layout_x="250dp"
+        android:layout_y="160dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="计算BMI"
+        android:textSize="40sp"
+
+        android:layout_x="95sp"
+        android:layout_y="240dp"
+        android:id="@+id/btn"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_x="20sp"
+        android:layout_y="400dp"
+        android:id="@+id/result"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/suggest"
+        android:textSize="20sp"
+        android:layout_x="20sp"
+        android:layout_y="450dp"
+
+        />
+</AbsoluteLayout>

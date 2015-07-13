@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BMI</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="result">你的BMI值是</string>
+    <string name="light">您偏瘦呀，多吃点吧!(≧﹏ ≦)</string>
+    <string name="average">您体型很棒，注意保持吧!(￣ε ￣)</string>
+    <string name="heavy">您超重了，加油减肥吧!⊙﹏⊙</string>
+    <string name="aboutBMI">关于 Android BMI</string>
+    <string name="BMI">体质指数（BMI）=体重（kg）÷身高^2（m）当BMI指数为18.5～23.9时属正常。
+        BMI是与体内脂肪总量密切相关的指标,该指标考虑了体重和身高两个因素。</string>
+    <string name="aboutUs">关于我们</string>
+    <string name="Us">齐帅制作</string>
+    <string name="version">当前版本</string>
+    <string name="ok">确认</string>
+    <string name="cancel">返回</string>
+</resources>
