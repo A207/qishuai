@@ -1,25 +1,25 @@
 package com.qishuai.app.bmi;
 
+
 import android.app.AlertDialog;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.os.Handler;
-import android.os.Message;
+
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+
+import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
-import android.widget.Toast;
-import android.widget.ViewFlipper;
+
+
 
 import java.text.DecimalFormat;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends ActionBarActivity{
 
     private EditText shengao;
     private EditText tizhong;
@@ -36,13 +36,15 @@ public class MainActivity extends ActionBarActivity {
         tizhong = (EditText) findViewById(R.id.tizhong);
         result=(TextView) findViewById(R.id.result);
         suggest = (TextView) findViewById(R.id.suggest);
-        Button btn=(Button)findViewById(R.id.btn);
+        ImageButton btn=(ImageButton)findViewById(R.id.btn);
         btn.setOnClickListener(new View.OnClickListener(){
 
 public void onClick(View v) {
-        double height = Double.parseDouble(shengao.getText().toString())/100;
-        double weight = Double.parseDouble(tizhong.getText().toString());
-        double BMI = weight / (height * height);
+    double height = Double.parseDouble(shengao.getText().toString())/100;
+    double weight= Double.parseDouble(tizhong.getText().toString());
+    if (TextUtils.isEmpty(shengao.getText().toString())||TextUtils.isEmpty(tizhong.getText().toString())) {
+        new AlertDialog.Builder(MainActivity.this).setMessage("Please input number!!!").show();}
+    double BMI = weight / (height * height);
 
         DecimalFormat nf = new DecimalFormat("0.00");
         result.setText(getText(R.string.result)+nf.format(BMI));
